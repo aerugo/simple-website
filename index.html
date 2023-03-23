@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,31 +15,40 @@
             background-color: #fff;
             color: #000;
         }
+
         header {
             text-align: center;
             padding: 1rem;
         }
+
         .container {
             max-width: 960px;
             margin: 0 auto;
             padding: 2rem;
         }
+
         .email {
             text-align: center;
             padding: 1rem;
         }
-        h1, h2 {
+
+        h1,
+        h2 {
+            margin: 1rem;
             margin-bottom: 0.5rem;
         }
+
         h1 {
             font-size: 2rem;
             font-weight: 400;
         }
+
         h2 {
             font-size: 1.5rem;
             font-weight: 400;
             letter-spacing: 1px;
         }
+
         ul {
             list-style-type: none;
             padding: 0;
@@ -46,17 +56,21 @@
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 2rem;
         }
+
         li {
             margin-bottom: 1rem;
         }
+
         a {
             color: #000;
             text-decoration: none;
             font-weight: 700;
         }
+
         a:hover {
             text-decoration: underline;
         }
+
         .project {
             display: flex;
             flex-direction: column;
@@ -64,66 +78,183 @@
             overflow: hidden;
             padding: 1rem;
         }
+
         .project img {
             width: 100%;
             height: auto;
             margin-bottom: 1rem;
         }
+
         .project-title {
             font-weight: 700;
         }
+
         .project-description {
             font-size: 0.875rem;
             text-align: center;
         }
+
+        .video {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+        }
+
+        .video iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
         .contact {
             margin-top: 2rem;
         }
     </style>
 </head>
+
 <body>
     <header>
         <h1>Hugi Asgeirsson</h1>
     </header>
     <div class="container">
+        <h2>Projects</h2>
         <ul>
             <li class="project">
-                <img src="https://via.placeholder.com/300x200" alt="blivande">
-                <a href="https://www.cobudget.com" class="project-title">Blivande</a>
-                <p class="project-description">Blivande is a collective and hub for participatory culture, artists and independent creatives in Stockholm, Sweden. We are based in a 1000 m2 building and a large container park. I co-founded Blivande in 2018 and led the strategy, fundraising, and project incubator for the first three years. I still advise the team on long term strategy and finances. </p>
-            </li>
-             <li class="project">
-                <img src="https://via.placeholder.com/300x200" alt="babel between us">
-                <a href="https://babelbetween.us" class="project-title">Babel Between Us</a>
-                <p class="project-description">Babel Between Us was a literary experiment where 18 writers and 9 ethnographers from all over the world, over the course of two years, wrote collaboratively. The project resulted in a cartographic visualization of a collaboratively created world, exploring the uncharted waters between collaboration, fiction, and ethnography. Babel was funded by the Swedish arts council fund Kulturbryggan and concluded in 2022.</p>
-            </li>
-          <li class="project">
-                <img src="https://via.placeholder.com/300x200" alt="participio">
-                <a href="https://www.blivande.com" class="project-title">Participio Labs</a>
-                <p class="project-description">Participio was a development lab within Edgeryders, funded by the Swedish arts council fund Kulturbryggan. Our purpose was to build experimental software and methodology for decentralized organizations and co-created culture. Everything built by Participio is open-source and free to use. Cobudget was one of the projects that came out of the Participio Labs.</p>
-          </li>
-          <li class="project">
-                <img src="https://via.placeholder.com/300x200" alt="cobudget">
+                <img src="https://via.placeholder.com/300x200" alt="Cobudget">
                 <a href="https://edgeryders.eu/t/graphryder-2-0-manual/16314" class="project-title">Cobudget</a>
-                <p class="project-description">A platform for collaborative funding and participatory budgeting. It started in 2015 with a platform for decentralized curation for co-created festivals. We were funded by the Swedish innovation agency Vinnova to support participatory placemaking, and Kulturbryggan to serve culture and arts. We ended up merging with a similar open-source and became Cobudget.  </p>
-          </li>
-          <li class="project">
-                <img src="https://via.placeholder.com/300x200" alt="graphryder">
+                <p class="project-description">A platform for collaborative funding and participatory budgeting. It
+                    started in 2015 with a platform for decentralized curation for co-created festivals. We were funded
+                    by the Swedish innovation agency Vinnova to support participatory placemaking, and Kulturbryggan to
+                    serve culture and arts. We ended up merging with a similar open-source and became Cobudget. </p>
+            </li>
+            <li class="project">
+                <img src="https://via.placeholder.com/300x200" alt="Babel Between Us">
+                <a href="https://babelbetween.us" class="project-title">Babel Between Us</a>
+                <p class="project-description">Babel Between Us was a literary experiment where 18 writers and 9
+                    ethnographers from all over the world, over the course of two years, wrote collaboratively. The
+                    project resulted in a cartographic visualization of a collaboratively created world, exploring the
+                    uncharted waters between collaboration, fiction, and ethnography. Babel was funded by the Swedish
+                    arts council fund Kulturbryggan and concluded in 2022.</p>
+            </li>
+            <li class="project">
+                <img src="https://via.placeholder.com/300x200" alt="Participio Labs">
+                <a href="https://www.blivande.com" class="project-title">Participio Labs</a>
+                <p class="project-description">Participio was a development lab within Edgeryders, funded by the Swedish
+                    arts council fund Kulturbryggan. Our purpose was to build experimental software and methodology for
+                    decentralized organizations and co-created culture. Everything built by Participio is open-source
+                    and free to use. Cobudget was one of the projects that came out of the Participio Labs.</p>
+            </li>
+            <li class="project">
+                <img src="https://via.placeholder.com/300x200" alt="Plato Project">
+                <a href="https://graphryder.edgeryders.eu/" class="project-title">Plato Project</a>
+                <p class="project-description">Lorem</p>
+            </li>
+            <li class="project">
+                <img src="https://via.placeholder.com/300x200" alt="Witness">
+                <a href="https://graphryder.edgeryders.eu/" class="project-title">World of Witness</a>
+                <p class="project-description">Lorem</p>
+            </li>
+            <li class="project">
+                <img src="https://via.placeholder.com/300x200" alt="Temple of Tokamak">
+                <a href="https://graphryder.edgeryders.eu/" class="project-title">Temple of Tokamak</a>
+                <p class="project-description">Lorem</p>
+            </li>
+            <li class="project">
+                <img src="https://via.placeholder.com/300x200" alt="Graphryder">
                 <a href="https://graphryder.edgeryders.eu/" class="project-title">Graphryder</a>
-                <p class="project-description">Graphryder is a software stack that builds and displays graphs based on online forum conversations and ethnogragraphic annotations. I desgined a new version of Graphryder, built the backend, and worked with Ouestware to build the graphical interface. Graphryder was used in two major Horizon Europe research projects in 2022.</p>
-          </li>
-          <li class="project">
-                <img src="https://via.placeholder.com/300x200" alt="sensestack">
-                <a href="https://www.sensestack.xyz/" class="project-title">SenseStack</a>
-                <p class="project-description">My development studio for software that combines art and data. Currently working on an undisclosed project.</p>
-          </li>
-</ul>
-      
-<div class="container">
-  <p class="email"><a href="mailto:hugi@hugi.se">email</a></p>    
-</div>
-      
-</div>
+                <p class="project-description">Graphryder is a software stack that builds and displays graphs based on
+                    online forum conversations and ethnogragraphic annotations. I desgined a new version of Graphryder,
+                    built the backend, and worked with Ouestware to build the graphical interface. Graphryder was used
+                    in two major Horizon Europe research projects in 2022.</p>
+            </li>
+            <li class="project">
+                <img src="https://via.placeholder.com/300x200" alt="realities">
+                <a href="https://graphryder.edgeryders.eu/" class="project-title">Realities</a>
+                <p class="project-description">Lorem.</p>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="container">
+        <h2>Networks</h2>
+        <ul>
+            <li class="project">
+                <img src="https://via.placeholder.com/300x200" alt="Blivande">
+                <a href="https://www.cobudget.com" class="project-title">Blivande</a>
+                <p class="project-description">Blivande is a collective and hub for participatory culture, artists and
+                    independent creatives in Stockholm, Sweden. We are based in a 1000 m2 building and a large container
+                    park. I co-founded Blivande in 2018 and led the strategy, fundraising, and project incubator for the
+                    first three years. I still advise the team on long term strategy and finances. </p>
+            </li>
+            <li class="project">
+                <img src="https://via.placeholder.com/300x200" alt="Edgeryders">
+                <a href="https://www.cobudget.com" class="project-title">Edgeryders</a>
+                <p class="project-description">Blivande is a collective and hub for participatory culture, artists and
+                    independent creatives in Stockholm, Sweden. We are based in a 1000 m2 building and a large container
+                    park. I co-founded Blivande in 2018 and led the strategy, fundraising, and project incubator for the
+                    first three years. I still advise the team on long term strategy and finances. </p>
+            </li>
+            <li class="project">
+                <img src="https://via.placeholder.com/300x200" alt="Open Collective">
+                <a href="https://www.cobudget.com" class="project-title">Open Collective</a>
+                <p class="project-description">Blivande is a collective and hub for participatory culture, artists and
+                    independent creatives in Stockholm, Sweden. We are based in a 1000 m2 building and a large container
+                    park. I co-founded Blivande in 2018 and led the strategy, fundraising, and project incubator for the
+                    first three years. I still advise the team on long term strategy and finances. </p>
+            </li>
+            <li class="project">
+                <img src="https://via.placeholder.com/300x200" alt="Greaterthan">
+                <a href="https://www.cobudget.com" class="project-title">Greaterthan</a>
+                <p class="project-description">Blivande is a collective and hub for participatory culture, artists and
+                    independent creatives in Stockholm, Sweden. We are based in a 1000 m2 building and a large container
+                    park. I co-founded Blivande in 2018 and led the strategy, fundraising, and project incubator for the
+                    first three years. I still advise the team on long term strategy and finances. </p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h2>Videos</h2>
+        <ul>
+            <li class="project video">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/watch?v=LjQzpGkTpHY" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <a href="https://www.youtube.com/watch?v==VIDEO_ID_1" class="project-title">Video Title 1</a>
+                <p class="project-description">Video description 1</p>
+            </li>
+            <li class="project video">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <a href="https://www.youtube.com/watch?v=VIDEO_ID_2" class="project-title">Video Title 2</a>
+                <p class="project-description">Video description 2</p>
+            </li>
+            <li class="project video">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <a href="https://www.youtube.com/watch?v=VIDEO_ID_3" class="project-title">Video Title 3</a>
+                <p class="project-description">Video description 3</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <p class="email"><a href="mailto:hugi@hugi.se">email</a></p>
+    </div>
+
 
 </body>
+
 </html>
