@@ -57,6 +57,13 @@
             gap: 2rem;
         }
 
+        .texts {
+            margin-top: 2rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
         li {
             margin-bottom: 1rem;
         }
@@ -77,6 +84,9 @@
             align-items: center;
             overflow: hidden;
             padding: 1rem;
+            min-height: 70px;
+            /* You can adjust this value depending on the content */
+            justify-content: space-between;
         }
 
         .project img {
@@ -124,47 +134,37 @@
         <ul>
             <li class="project">
                 <img src="https://via.placeholder.com/300x200" alt="Cobudget">
-                <a href="https://edgeryders.eu/t/graphryder-2-0-manual/16314" class="project-title">Cobudget</a>
-                <p class="project-description">A platform for collaborative funding and participatory budgeting. It
-                    started in 2015 with a platform for decentralized curation for co-created festivals. We were funded
-                    by the Swedish innovation agency Vinnova to support participatory placemaking, and Kulturbryggan to
-                    serve culture and arts. We ended up merging with a similar open-source and became Cobudget. </p>
+                <a target="_blank" href="https://edgeryders.eu/t/graphryder-2-0-manual/16314" class="project-title">Cobudget</a>
+                <p class="project-description">A platform for collaborative funding and participatory budgeting. It started in 2015 with a platform for decentralized curation for co-created festivals. We were funded by the Swedish innovation agency Vinnova to support participatory placemaking, and Kulturbryggan to serve culture and arts. We ended up merging with a similar open-source and became Cobudget. In collaboration with the <a href="https://cobudget.com/about" target="_blank">Cobudget team</a>.</p>
             </li>
             <li class="project">
                 <img src="https://via.placeholder.com/300x200" alt="Babel Between Us">
-                <a href="https://babelbetween.us" class="project-title">Babel Between Us</a>
-                <p class="project-description">Babel Between Us was a literary experiment where 18 writers and 9
-                    ethnographers from all over the world, over the course of two years, wrote collaboratively. The
-                    project resulted in a cartographic visualization of a collaboratively created world, exploring the
-                    uncharted waters between collaboration, fiction, and ethnography. Babel was funded by the Swedish
-                    arts council fund Kulturbryggan and concluded in 2022.</p>
+                <a target="_blank" href="https://babelbetween.us/codes" class="project-title">Babel Between Us</a>
+                <p class="project-description">A literary experiment where 18 writers and 9 ethnographers from all over the world, over the course of two years, wrote collaboratively. Babel was funded by the Swedish arts council fund Kulturbryggan and concluded in 2022. In collaboration with the <a target="_blank" href="https://babelbetween.us/">BBU team.</a></p>
             </li>
             <li class="project">
                 <img src="https://via.placeholder.com/300x200" alt="Participio Labs">
-                <a href="https://www.blivande.com" class="project-title">Participio Labs</a>
-                <p class="project-description">Participio was a development lab within Edgeryders, funded by the Swedish
-                    arts council fund Kulturbryggan. Our purpose was to build experimental software and methodology for
-                    decentralized organizations and co-created culture. Everything built by Participio is open-source
-                    and free to use. Cobudget was one of the projects that came out of the Participio Labs.</p>
+                <a target="_blank" href="https://www.blivande.com" class="project-title">Participio Labs</a>
+                <p class="project-description">Participio was a development lab within Edgeryders, funded by the Swedish arts council fund Kulturbryggan. Our purpose was to build experimental software and methodology for decentralized organizations and co-created culture. Everything built by Participio is open-source and free to use. Cobudget was one of the projects that came out of the Participio Labs.</p>
             </li>
             <li class="project">
                 <img src="https://via.placeholder.com/300x200" alt="Plato Project">
-                <a href="https://graphryder.edgeryders.eu/" class="project-title">Plato Project</a>
-                <p class="project-description">Lorem</p>
+                <a target="_blank" href="https://coda.io/d/Rapport-Plato_dfrLqntLQ7I/Inledning-och-uppdrag_suY5o#_lul3f" class="project-title">Plato Project</a>
+                <p class="project-description">Civil society can create third places in the city, co-created by citizens for citizens. To prevent places like these to fall victim to the relentless jaws of gentrification, they need better tools to communicate their project, values, and processes. In collaboration with Jakob Skote, Gustav Larsson, Jacob Karlsson, Maria Kling, Ragnar Lund, Ylva Björnberg and Diana Uppman.</p>
             </li>
             <li class="project">
                 <img src="https://via.placeholder.com/300x200" alt="Witness">
-                <a href="https://graphryder.edgeryders.eu/" class="project-title">World of Witness</a>
-                <p class="project-description">Lorem</p>
+                <a target="_blank" href="https://witness.scifieconomicslab.net/" class="project-title">World of Witness</a>
+                <p class="project-description">Welcome to Witness - an open-source fictional world. This world is different from other fictional worlds, in that it pays a lot of attention to its economies, and makes its economies radically different from the one we live in. Witness is a giant floating city on planet Earth. It does not exist in reality, but it could. An Edgeryders project in collaboration with Yudhanjaya Wijeratne.</p>
             </li>
             <li class="project">
                 <img src="https://via.placeholder.com/300x200" alt="Temple of Tokamak">
-                <a href="https://graphryder.edgeryders.eu/" class="project-title">Temple of Tokamak</a>
-                <p class="project-description">Lorem</p>
+                <a target="_blank" href="http://www.alscherer.com/#/the-temple-of-tokamak/" class="project-title">Temple of Tokamak</a>
+                <p class="project-description">The Temple of Tokamak is a permanent installation, situated on a ridge in Hedeland, Denmark. The main premise of this design was a Tokamak reactor, a torus-shaped device that generates a powerful magnetic field to create fusion. </p>
             </li>
             <li class="project">
                 <img src="https://via.placeholder.com/300x200" alt="Graphryder">
-                <a href="https://graphryder.edgeryders.eu/" class="project-title">Graphryder</a>
+                <a target="_blank" href="https://graphryder.edgeryders.eu/" class="project-title">Graphryder</a>
                 <p class="project-description">Graphryder is a software stack that builds and displays graphs based on
                     online forum conversations and ethnogragraphic annotations. I desgined a new version of Graphryder,
                     built the backend, and worked with Ouestware to build the graphical interface. Graphryder was used
@@ -172,7 +172,7 @@
             </li>
             <li class="project">
                 <img src="https://via.placeholder.com/300x200" alt="realities">
-                <a href="https://graphryder.edgeryders.eu/" class="project-title">Realities</a>
+                <a target="_blank" href="https://graphryder.edgeryders.eu/" class="project-title">Realities</a>
                 <p class="project-description">Lorem.</p>
             </li>
         </ul>
@@ -218,36 +218,89 @@
     </div>
 
     <div class="container">
-        <h2>Videos</h2>
+        <h2>Talks and media
         <ul>
             <li class="project video">
                 <div class="video">
-                    <iframe src="https://www.youtube.com/watch?v=LjQzpGkTpHY" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/LjQzpGkTpHY"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
                 </div>
-                <a href="https://www.youtube.com/watch?v==VIDEO_ID_1" class="project-title">Video Title 1</a>
                 <p class="project-description">Video description 1</p>
             </li>
             <li class="project video">
                 <div class="video">
-                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7xv3XyrEP-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
-                <a href="https://www.youtube.com/watch?v=VIDEO_ID_2" class="project-title">Video Title 2</a>
                 <p class="project-description">Video description 2</p>
             </li>
             <li class="project video">
                 <div class="video">
-                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Dq0Gy9-grfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
-                <a href="https://www.youtube.com/watch?v=VIDEO_ID_3" class="project-title">Video Title 3</a>
                 <p class="project-description">Video description 3</p>
             </li>
+            <li class="project video">
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0_lrFETlmi8?start=2146" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                </div>
+                <p class="project-description">Video description 4</p>
+            </li>
+            <li class="project video">
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/C8ylKFVTVHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                </div>
+                <p class="project-description">Video description 5</p>
+            </li>
+            <li class="project video">
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/oPoW3Ew6W8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                </div>
+                <p class="project-description">Video description 6</p>
+            </li>
         </ul>
+    </div>
+
+    <div class="container">
+        <h2>Texts</h2>
+        <ul class="texts">
+            <li><a href="https://medium.com/@hugiasgeirsson/no-bright-future-a-cautionary-tale-1d8f0836ec65"
+                    target="_blank">No Bright Future: A Cautionary Tale</a> - A reflection on unsustainable growth and
+                the environmental consequences of unchecked progress.</li>
+            <li><a href="https://medium.com/@hugiasgeirsson/burning-man-the-internet-and-late-stage-capitalism-fc0514436cff"
+                    target="_blank">Burning Man, the Internet, and Late-Stage Capitalism</a> - An exploration of the
+                evolution of Burning Man, its influence on technology and culture, and the challenges of capitalism.
+            </li>
+            <li><a href="https://edgeryders.eu/t/avantgrid-the-off-grid-archipelago/15268" target="_blank">Avantgrid:
+                    The Off-Grid Archipelago</a> - A description of a network of self-sustaining, off-grid communities
+                working together to create an alternative way of living.</li>
+            <li><a href="https://edgeryders.eu/t/blivande-growing-a-sustainable-ecosystem/10851"
+                    target="_blank">Blivande: Growing a Sustainable Ecosystem</a> - A showcase of the Blivande project,
+                its goals, and its focus on fostering sustainability, creativity, and community.</li>
+            <li><a href="https://edgeryders.eu/t/stockholm-blivande-house-edgeryders-nordic/8972/4"
+                    target="_blank">Stockholm Blivande House: Edgeryders Nordic</a> - An introduction to the Blivande
+                House in Stockholm and its role as a hub for the Edgeryders Nordic community.</li>
+            <li><a href="https://edgeryders.eu/t/realities-project-white-paper/9064" target="_blank">Realities Project
+                    White Paper</a> - An overview of the Realities Project, which aims to create a decentralized
+                platform for collaboration and project management.</li>
+            <li><a href="https://forum.blivande.com/t/vinnova-3-frihamnstorget/3302" target="_blank">Vinnova-3:
+                    Frihamnstorget</a> - A discussion on the Vinnova-3 project, which seeks to transform the
+                Frihamnstorget area into a creative and sustainable public space.</li>
+            <li><a href="https://forum.blivande.com/t/plato-has-been-funded/829" target="_blank">Plato Has Been
+                    Funded</a> - An announcement celebrating the successful funding of the Plato project, which aims to
+                create a digital platform for democratic decision-making.</li>
+            <li><a href="https://forum.blivande.com/t/blivande-wins-the-eesc-civil-solidarity-prize/1966"
+                    target="_blank">Blivande Wins the EESC Civil Solidarity Prize</a> - A celebration of Blivande's
+                recognition by the European Economic and Social Committee for its contributions to civil society.</li>
+            <li><a href="https://edgeryders.eu/t/participio-development-lab/9108" target="_blank">Participio Development
+                    Lab</a> - An introduction to the Participio Development Lab, an initiative aimed at developing tools
+                and platforms to foster collaboration and participation within communities.</li>
+            <li><a href="https://edgeryders.eu/t/decentralized-risks-hosting-information-for-others-comes-at-a-cost/9953"
+                    target="_blank">Decentralized Risks: Hosting Information for Others Comes at a Cost</a> - An
+                examination of the challenges and risks involved in hosting decentralized information systems, including
+                privacy and security concerns.</li>
+            <li><a href="https://bbu.world/t/babel-bob-speaks/1044" target="_blank">Babel Bob Speaks
+            </a> Instructions to participants of the Babel Between Us project.
+        </ul>
+
     </div>
 
     <div class="container">
